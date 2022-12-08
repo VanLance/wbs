@@ -1,0 +1,24 @@
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "Dylan_DB",
+            "database": "postgres://svfvthbb:fgZL1QQALCWskv8YhbJMmsRdwjcwyij1@jelani.db.elephantsql.com/svfvthbb",
+            "username": "Dylan_DB",
+            "connectString": "postgres://svfvthbb:fgZL1QQALCWskv8YhbJMmsRdwjcwyij1@jelani.db.elephantsql.com/svfvthbb"
+        }
+    ]
+}
